@@ -29,23 +29,25 @@ pip install numpy prettytable
 ## Usage
 
 1. Clone the repository to your local machine:
-   <pre><div class="bg-black rounded-md mb-4"><div class="flex items-center relative text-gray-200 bg-gray-800 gizmo:dark:bg-token-surface-primary px-4 py-2 text-xs font-sans justify-between rounded-t-md"><span>bash</span></div></div></pre>
 
-* <pre><div class="bg-black rounded-md mb-4"><div class="p-4 overflow-y-auto"><code class="!whitespace-pre hljs language-bash">git clone https://github.com/abelxmendoza/PopulationGrowth_Analysis.git
-  </code></div></div></pre>
-* Navigate to the repository directory:
-  <pre><div class="bg-black rounded-md mb-4"><div class="flex items-center relative text-gray-200 bg-gray-800 gizmo:dark:bg-token-surface-primary px-4 py-2 text-xs font-sans justify-between rounded-t-md"><span>bash</span></div></div></pre>
-* <pre><div class="bg-black rounded-md mb-4"><div class="p-4 overflow-y-auto"><code class="!whitespace-pre hljs language-bash">cd PopulationGrowth_Analysis
-  </code></div></div></pre>
-* Run the Python script to analyze population growth. For example:
-  <pre><div class="bg-black rounded-md mb-4"><div class="flex items-center relative text-gray-200 bg-gray-800 gizmo:dark:bg-token-surface-primary px-4 py-2 text-xs font-sans justify-between rounded-t-md"><span>bash</span></div></div></pre>
+```bash
+git clone https://github.com/abelxmendoza/PopulationGrowth_Analysis.git
+```
 
-1. <pre><div class="bg-black rounded-md mb-4"><div class="p-4 overflow-y-auto"><code class="!whitespace-pre hljs language-bash">python population_growth_analysis.py
-   </code></div></div></pre>
+2. Navigate to the repository directory:
 
-   This script will model population growth based on the provided parameters and display the results in a formatted table.
-2. Explore the generated data and use it for further analysis or visualization as needed.
+```bash
+cd PopulationGrowth_Analysis
+```
 
-## License
+3. Run the Python script to analyze population growth. For example:
+
+```bash
+python population_growth_analysis.py
+```
+
+ This script will model population growth based on the provided parameters and display the results in a formatted table.
+
+4. Explore the generated data and use it for further analysis or visualization as needed.
 
 This project is licensed under the MIT License - see the [LICENSE](https://chat.openai.com/c/LICENSE) file for details.
